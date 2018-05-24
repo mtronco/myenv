@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+#https://github.com/riobard/bash-powerline/pull/3
+
 ## Uncomment to disable git info
 #POWERLINE_GIT=0
 
