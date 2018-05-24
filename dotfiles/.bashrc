@@ -1,4 +1,5 @@
 #!/bin/bash
 
-source ~/.bash/export
+
+source ~/.bash-powerline.sh
 source ~/.bash/alias

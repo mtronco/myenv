@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MYHOME=${HOME:-/Users/leocomelli}
+MYHOME=${HOME:-/Users/lopesalex}
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 CREDENTIALS_FILE="$DIR/credentials"
 

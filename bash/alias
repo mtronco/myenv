@@ -1,11 +1,9 @@
 #!/bin/bash
 
 # Shortcuts
-alias db="cd ${MYHOME}/Dropbox"
 alias dl="cd ${MYHOME}/Downloads"
 alias dk="cd ${MYHOME}/Desktop"
 alias dev="cd ${MYHOME}/dev"
-alias src="cd ${MYHOME}/dev/src"
 
 if [[ "$OSTYPE" =~ "darwin" ]]; then
 	colorflag="-G"
