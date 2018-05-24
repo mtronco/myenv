@@ -1,5 +1,5 @@
 #!/bin/bash
 
 
-source ~/.bash-powerline.sh
+source ~/.dotfiles/.bash-powerline.sh
 source ~/.bash/alias
