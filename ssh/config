@@ -1,0 +1,20 @@
+Host * 
+    IdentitiesOnly yes
+    VisualHostKey yes
+    
+Host github
+    Hostname github.com
+    User alexlopes
+    IdentityFile ~/.ssh/github
+    
+Host bitbucket
+    Hostname bitbucket.org
+    User diariosaude.app
+    IdentityFile ~/.ssh/bitbucket-ds    
+    
+Host github.houston
+    Hostname github.houston.entsvcs.net
+    User alex-lopes
+    IdentityFile ~/.ssh/github-houston
+    
+
