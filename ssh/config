@@ -10,11 +10,8 @@ Host github
 Host bitbucket
     Hostname bitbucket.org
     User diariosaude.app
-    IdentityFile ~/.ssh/bitbucket-ds    
+    IdentityFile ~/.ssh/bitbucket
     
-Host github.houston
-    Hostname github.houston.entsvcs.net
-    User alex-lopes
-    IdentityFile ~/.ssh/github-houston
+
     
 
