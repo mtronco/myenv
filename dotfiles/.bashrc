@@ -1,5 +1,5 @@
 #!/bin/bash
 
 
-source ~/.dotfiles/.bash-powerline.sh
+. /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh
 source ~/.bash/alias
