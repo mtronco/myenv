@@ -35,7 +35,8 @@ install-vim:
 	cp -Rf `pwd`/vim ~/.vim
 	ln -s ~/.vim/.vimrc ~/.vimrc
 	git clone git@github.com:VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-	vim +BundleInstall +qall
+	git clone https://github.com/ekalinin/Dockerfile.vim.git ~/.vim/bundle/Dockerfile.vim
+	vim +BundleInstall +qall	
 
 install-powerline:
 	sudo pip install powerline-status
