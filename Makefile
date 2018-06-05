@@ -39,3 +39,6 @@ install-vim:
 
 install-powerline:
 	sudo pip install powerline-status
+	sudo pip install powerline-gitstatus
+	git clone git@github.com:gravyboat/powerline-config.git ~
+	cp -r ~/powerline-config/powerline/ ~/.config/
