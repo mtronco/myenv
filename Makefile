@@ -38,7 +38,4 @@ install-vim:
 	vim +BundleInstall +qall
 
 install-powerline:
-	rm -rf ~/.bash/powerline-shell
-	#git clone git@github.com:banga/powerline-shell.git ~/.bash/powerline-shell
-	#cd ~/.bash/powerline-shell; python install.py
-
+	sudo pip install powerline-status
