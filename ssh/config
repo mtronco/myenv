@@ -1,13 +1,13 @@
 Host * 
     IdentitiesOnly yes
-    VisualHostKey yes
+    VisualHostKey no
     
-Host github
+Host github.com
     Hostname github.com
     User alexlopes
     IdentityFile ~/.ssh/github
     
-Host bitbucket
+Host bitbucket.com
     Hostname bitbucket.org
     User diariosaude.app
     IdentityFile ~/.ssh/bitbucket
