@@ -15,6 +15,7 @@ clean:
 	rm -rf ~/.gitignore
 	rm -rf ~/.vimrc
 	rm -rf ~/.vim
+	rm -rf ~/powerline-config
 
 install-bash:
 	cp -rf `pwd`/bash ~/.bash
@@ -41,5 +42,5 @@ install-vim:
 install-powerline:
 	sudo pip install powerline-status
 	sudo pip install powerline-gitstatus
-	git clone git@github.com:gravyboat/powerline-config.git ~
+	git clone git@github.com:gravyboat/powerline-config.git ~/powerline-config
 	cp -r ~/powerline-config/powerline/ ~/.config/
