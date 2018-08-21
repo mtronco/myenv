@@ -12,7 +12,7 @@
     lg = log -p
     rso = remote show origin
     me = !sh -c 'git config user.name & git config user.email'
-    as = !sh -c 'git config --global user.email leonardo.comelli@${1}.com' -
+    as = !sh -c 'git config --global user.email alex.lopes@${1}.com' -
 
     up = !git update
     smash = !git ir
@@ -133,3 +133,6 @@
 
 [help]
         autocorrect = 1
+	
+[http]
+        proxy = $http_proxy
