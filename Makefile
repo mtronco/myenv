@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 
-install: install-bash install-vim install-powerline
+install: install-powerline install-vim install-bash
 
 clean:
 	rm -rf ~/.bash
