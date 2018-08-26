@@ -3,7 +3,7 @@
 #### bash, dotfiles and vimfiles.
 
 ```
-$ git@github.com:leocomelli/myenv.git
+$ git@github.com:alexlopes/myenv.git
 $ cd myenv
 $ make
 ```
