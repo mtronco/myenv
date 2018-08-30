@@ -28,7 +28,8 @@ install-bash:
 	ln -s ~/.dotfiles/.minttyrc ~/.minttyrc
 	ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 	ln -s ~/.dotfiles/.gitignore ~/.gitignore
-
+        
+	cp ~/ssh/config ~/.ssh/config
 	source ~/.bash_profile
 
 install-vim:
