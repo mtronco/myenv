@@ -19,6 +19,10 @@ clean:
 
 install-ssh:
         cp ~/ssh/config ~/.ssh/config
+        sed -i 's/GITHUB_USER/$GITHUB_USER/g' ssh/config
+        sed -i 's/GHE_ENTERPRISE_ADDR/$GHE_ENTERPRISE_ADDR/g' ssh/config
+        sed -i 's/GHE_ENTERPRISE_USER/$GHE_ENTERPRISE_USER/g' ssh/config
+	
 
 install-bash:
 	cp -rf `pwd`/bash ~/.bash
