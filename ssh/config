@@ -4,12 +4,17 @@ Host *
     
 Host github.com
     Hostname github.com
-    User alexlopes
+    User GITHUB_USER
     IdentityFile ~/.ssh/github
     
-Host bitbucket.com
-    Hostname bitbucket.org
-    User diariosaude.app
+Host GHE_ENTERPRISE_ADDR
+    Hostname GHE_ENTERPRISE_ADDR
+    User GHE_ENTERPRISE_USER
+    IdentityFile ~/.ssh/githubenterprise
+    
+Host BITBUCKET_ADDR
+    Hostname BITBUCKET_ADDR
+    User BITBUCKET_USER
     IdentityFile ~/.ssh/bitbucket
     
 
