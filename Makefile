@@ -22,8 +22,9 @@ install-ssh:
 	sed -i "s/GITHUB_USER/$GITHUB_USER/g" ssh/config
 	sed -i "s/GHE_ENTERPRISE_ADDR/$GITHUB_USER/g" ssh/config
 	sed -i "s/GHE_ENTERPRISE_USER/$GHE_ENTERPRISE_USER/g" ssh/config
-	cp ssh/config ~/.ssh/config	
-
+	cp ssh/config ~/.ssh/config
+	cat ~/.ssh/config
+	
 install-bash:
 	cp -rf `pwd`/bash ~/.bash
 	cp -rf `pwd`/dotfiles ~/.dotfiles
