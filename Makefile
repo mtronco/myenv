@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 
-install: install-powerline install-vim install-bash
+install: install-ssh install-powerline install-vim install-bash
 
 clean:
 	rm -rf ~/.bash
@@ -17,6 +17,9 @@ clean:
 	rm -rf ~/.vim
 	rm -rf ~/powerline-config
 
+install-ssh:
+        cp ~/ssh/config ~/.ssh/config
+
 install-bash:
 	cp -rf `pwd`/bash ~/.bash
 	cp -rf `pwd`/dotfiles ~/.dotfiles
@@ -28,8 +31,7 @@ install-bash:
 	ln -s ~/.dotfiles/.minttyrc ~/.minttyrc
 	ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 	ln -s ~/.dotfiles/.gitignore ~/.gitignore
-        
-	cp ~/ssh/config ~/.ssh/config
+        		
 	source ~/.bash_profile
 
 install-vim:
